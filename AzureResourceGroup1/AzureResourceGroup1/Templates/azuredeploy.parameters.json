@@ -1,0 +1,27 @@
+﻿{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "existingVNETName": {
+      "value": "VNET_MFC_MGT"
+    },
+    "existingSubnetName": {
+      "value": "VNET_MFC_SUBNET_Servers"
+    },
+    "vmSize": {
+      "value": "Standard_A2"
+    },
+    "vmAdminUsername": {
+      "value": "NocAdmin"
+    },
+    "vmAdminPassword": {
+      "value": "F5rr1nt9"
+    },
+      "vmname": {
+          "value": "backupservertest"
+      },
+      "storageAccountName": {
+          "value": "staccmfcbck"
+      }
+  }
+}
